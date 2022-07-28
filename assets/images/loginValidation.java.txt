@@ -1,0 +1,46 @@
+public class loginValidation
+{
+  public static void main (String[]args)
+  {
+    String s, s1, s2;
+    int i, p = 0, q = 0;
+      s = "Akashmishr242@gmailcom";
+      s1 = s.toLowerCase ();
+      s2 = s.toUpperCase ();
+    if (s == s1 || s == s2)
+      {
+	System.out.
+	  println ("Atleast one lower case and one upper case required");
+	return;
+      }
+    for (i = 0; i < s1.length (); i++)
+      {
+	if (Character.isLowerCase (s1.charAt (i)) == false
+	    && Character.isDigit (s1.charAt (i)) == true)
+	  {
+	    p++;
+	  }
+
+	if (Character.isLowerCase (s1.charAt (i)) == false
+	    && Character.isDigit (s1.charAt (i)) == false
+	    && Character.isWhitespace (s1.charAt (i)) == false)
+	  {
+	    q++;
+	  }
+      }
+    if (p == 0)
+      {
+	System.out.println ("atleat one Digit is required");
+      }
+    if (q == 0)
+      {
+	System.out.println ("atleat one special character required");
+	return;
+      }
+
+    if (s != s1 && s != s2)
+      {
+	System.out.println ("successfully Loggedin");
+      }
+  }
+}
