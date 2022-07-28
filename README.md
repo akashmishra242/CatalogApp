@@ -1,6 +1,6 @@
 # CatalogApp
 
-The given Project is a Flutter Project.
+The above Project is a Flutter Project.
 The given project is about a catalog app wherein we can view , add to cart and buy selcted item(s).
 
 ### This application includes:
