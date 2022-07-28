@@ -28,3 +28,5 @@ https://user-images.githubusercontent.com/91900783/181636503-4bfb0a14-aa0e-4092-
 
 
 # [.apk] file link
+
+Will be updated soon.
